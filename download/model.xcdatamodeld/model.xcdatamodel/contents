@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15F34" minimumToolsVersion="Xcode 7.0">
+    <entity name="Area" representedClassName="Area" syncable="YES">
+        <attribute name="area_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="area_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="province_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sort" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="City" representedClassName="City" syncable="YES">
+        <attribute name="city_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="province_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sort" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Province" representedClassName="Province" syncable="YES">
+        <attribute name="province_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="province_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sort" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Province" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Area" positionX="-54" positionY="-9" width="128" height="135"/>
+        <element name="City" positionX="-36" positionY="9" width="128" height="120"/>
+    </elements>
+</model>
